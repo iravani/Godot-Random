@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c75te4ginkq4i"]
+
+[ext_resource type="Script" path="res://Scripts/GenerateTheMap.gd" id="1_35rqm"]
+
+[node name="GenerateManager" type="Node2D"]
+script = ExtResource("1_35rqm")
+world_size = 75
+linarity = 69
+map_size = 70
+non_linarity = 15
+path_count = 10
